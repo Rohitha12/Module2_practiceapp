@@ -1,0 +1,44 @@
+main{
+    padding: 30pt;
+    color:black;
+    /*learned about wrappers from https://css-tricks.com/best-way-implement-wrapper-css/  */
+    margin-right: 320pt;
+    margin-left:  340pt; 
+    
+    }
+    hr{
+        background-color: black;
+    }
+    h1{
+        font-style: initial;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left;
+        justify-content: left;
+    }
+    .button{
+        /* learned about buttons https://www.w3schools.com/css/css3_buttons.asp*/
+        background-color: lightgray;
+        padding:none;
+
+    }
+    /* this is the rate box
+    Learned about changing text box size https://www.w3schools.com/css/css_form.asp*/
+    .input{
+      width:55%;  
+    }
+    /*this is ratebox and tag */
+    /* Learned about floating https://www.w3schools.com/css/css_float.asp*/
+    .rateholder{
+        float:left;
+    }
+    .buttonholder{
+        display: flex;
+        justify-content: left;
+        flex-basis: 100%;
+        font-size: 24px;
+    }
+    footer{
+       text-align: center;
+    }
+    
+    
